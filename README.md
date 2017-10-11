@@ -12,7 +12,7 @@ Edge detection has made signiﬁcant progress with the help of deep Convolutiona
 
 If you are using the code/model provided here in a publication, please cite our paper:
 
-    @InProceedings{xie15hed,
+    @InProceedings{Wang17CED,
       author = {"Yupei Wang, Xin Zhao and Kaiqi Huang"},
       Title = {Deep Crisp Boundaries},
       Booktitle = "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
@@ -39,13 +39,12 @@ If you are using the code/model provided here in a publication, please cite our 
  0. Install prerequisites for Caffe(http://caffe.berkeleyvision.org/installation.html#prequequisites)
  0. Install caffe
 
-### Training HED
-To reproduce our results on BSDS500 dataset:
+### Training CED
  0. data: Download the datasets
  0. initial model: Use pretrained HED model at 'examples/hed/hed_vgg16.caffemodel'
  0. run the python script **python solve.py** in examples/hed
 
-### Testing HED
+### Testing CED
 Please refer to the original HED(https://github.com/s9xie/hed).
  
 For NMS, we used Piotr's Structured Forest matlab toolbox(https://github.com/pdollar/edges). 
