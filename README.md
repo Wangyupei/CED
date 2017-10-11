@@ -19,13 +19,19 @@ If you are using the code/model provided here in a publication, please cite our 
 
 ### Evaluation results
 'examples/CED/resultsImgs_CED': edge maps before NMS with single-scale CED
+
 'examples/CED/resultsImgs_CED_multi': edge maps before NMS with CED
+
 'examples/CED/edge_resultsImgs_CED_multi': edge maps after NMS with CED
+
 'examples/CED/edge_resultsImgs_CED_multi-eval': evaluation results with CED at standard maximal permissible distance d.
+
 'examples/CED/edge_resultsImgs_CED_multi-375-eval': evaluation results with CED at d/2.
+
 'examples/CED/edge_resultsImgs_CED_multi-1875-eval': evaluation results with CED at d/4.
 
 'edge_resultsImgs_CED_multi_VOC_aug': edge maps after NMS with CED_VOC_aug
+
 'edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
 
   
