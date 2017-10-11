@@ -35,9 +35,6 @@ If you are using the code/model provided here in a publication, please cite our 
 
  The pretrained model 'examples/CED/CED.caffemodel' gives ODS=.803 result on BSDS benchmark dataset. And after augmenting the training set with PASCAL Context dataset, the pretrained model 'examples/CED/CED_VOC_aug.caffemodel' gives better resutl ODS=.815
 
-### Installing 
- 0. Install prerequisites for Caffe(http://caffe.berkeleyvision.org/installation.html#prequequisites)
- 0. Install caffe
 
 ### Training CED
  0. data: Download the datasets
