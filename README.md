@@ -1,7 +1,5 @@
 ## Deep Crisp Boundaries
 
-Created by Yupei Wang
-
 ### Introduction:
 
 
