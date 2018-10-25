@@ -43,11 +43,6 @@ If you are using the code/model provided here in a publication, please cite our 
 
 'edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
 
-  
-### Pretrained model
-
- The pretrained model 'examples/CED/CED.caffemodel' gives ODS=.803 result on BSDS benchmark dataset. And after augmenting the training set with PASCAL Context dataset, the pretrained model 'examples/CED/CED_VOC_aug.caffemodel' gives better resutl ODS=.815
-
 
 ### Training and testing
 Please refer to the original HED(https://github.com/s9xie/hed).
