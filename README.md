@@ -2,8 +2,7 @@
 
 ### Introduction:
 
-
-Edge detection has made signiﬁcant progress with the help of deep Convolutional Networks (ConvNet). ConvNet based edge detectors approached humanl evel performance on standard benchmarks. We provide a systematical study of these detector outputs, and show that they failed to accurately localize edges, which can be adversarial for tasks that require crisp edge inputs. In addition, we propose a novel reﬁnement architecture to address the challenging problem of learning a crisp edge detector using ConvNet. Our method leverages a top-down backward reﬁnement pathway, and progressively increases the resolution of feature maps to generate crisp edges. Our results achieve promising performance on BSDS500, surpassing human accuracy when using standard criteria, and largely outperforming state-of-the-art methods when using more strict criteria. We further demonstrate the beneﬁt of crisp edge maps for estimating optical ﬂow and generating object proposals.
+Edge detection has made significant progress with the help of deep Convolutional Networks (ConvNet). These ConvNet based edge detectors have approached human level performance on standard benchmarks. We provide a systematical study of these detectors' outputs. We show that the detection results did not accurately localize edge pixels, which can be adversarial for tasks that require crisp edge inputs. As a remedy, we propose a novel refinement architecture to address the challenging problem of learning a crisp edge detector using ConvNet. Our method leverages a top-down backward refinement pathway, and progressively increases the resolution of feature maps to generate crisp edges. Our results achieve superior performance, surpassing human accuracy when using standard criteria on BSDS500, and largely outperforming state-of-the-art methods when using more strict criteria. More importantly, we demonstrate the benefit of crisp edge maps for several important applications in computer vision, including optical flow estimation, object proposal generation and semantic segmentation.
 
 
 ### Citations
@@ -16,6 +15,16 @@ If you are using the code/model provided here in a publication, please cite our 
       Booktitle = "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
       Year  = {2017},
     }
+    
+    @article{Wang18Crisp,
+      title={Deep Crisp Boundaries: From Boundaries to Higher-level Tasks},
+      author={ Yupei Wang, Xin Zhao, Yin Li and Kaiqi Huang},
+      journal={TIP},
+      year={2018},
+      publisher={IEEE}
+}
+
+
 
 ### Evaluation results
 'examples/CED/resultsImgs_CED': edge maps before NMS with single-scale CED
@@ -40,12 +49,7 @@ If you are using the code/model provided here in a publication, please cite our 
  The pretrained model 'examples/CED/CED.caffemodel' gives ODS=.803 result on BSDS benchmark dataset. And after augmenting the training set with PASCAL Context dataset, the pretrained model 'examples/CED/CED_VOC_aug.caffemodel' gives better resutl ODS=.815
 
 
-### Training CED
- 0. data: Download the datasets
- 0. initial model: Use pretrained HED model at 'examples/hed/hed_vgg16.caffemodel'
- 0. run the python script **python solve.py** in examples/hed
-
-### Testing CED
+### Training and testing
 Please refer to the original HED(https://github.com/s9xie/hed).
  
 For NMS, we used Piotr's Structured Forest matlab toolbox(https://github.com/pdollar/edges). 
