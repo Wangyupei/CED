@@ -16,3 +16,5 @@ solver = caffe.SGDSolver('solver.prototxt')
 
 # copy base weights for fine-tuning
 solver.net.copy_from(base_weights)
+
+solver.step()
