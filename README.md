@@ -39,9 +39,13 @@ If you are using the code/model provided here in a publication, please cite our 
 
 'examples/CED/edge_resultsImgs_CED_multi-1875-eval': evaluation results with CED at d/4.
 
-'edge_resultsImgs_CED_multi_VOC_aug': edge maps after NMS with CED_VOC_aug
+'examples/CED/edge_resultsImgs_CED_multi_VOC_aug': edge maps after NMS with CED_VOC_aug
 
-'edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
+'examples/CED/edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
+
+'examples/CED/resultsImgs_Res50_CED': edge maps before NMS with single-scale CED
+
+'examples/CED/edge_resultsImgs_Res50_CED-eval': evaluation results with CED_VOC_aug
 
 
 ### Training and testing
