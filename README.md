@@ -43,7 +43,11 @@ If you are using the code/model provided here in a publication, please cite our 
 
 'examples/CED/edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
 
+'examples/CED/resultsImgs_Res50_CED_multi_VOC_aug': edge maps before NMS with Res50_CED_multi_VOC_aug
 
+'examples/CED/edge_resultsImgs_Res50_CED_multi_VOC_aug': edge maps after NMS with Res50_CED_multi_VOC_aug
+
+'examples/CED/edge_resultsImgs_Res50_CED_multi_VOC_aug-eval': evaluation results with Res50_CED_multi_VOC_aug
 
 ### Training and testing
 Please refer to the original HED(https://github.com/s9xie/hed).
