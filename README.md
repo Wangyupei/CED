@@ -26,7 +26,7 @@ If you are using the code/model provided here in a publication, please cite our 
 
 
 
-### Evaluation results can be downloaded at(https://drive.google.com/file/d/1NYvlJYVonLs3twtYPDBV8l0x9ooxIFCY/view?usp=sharing)
+### Evaluation results can be downloaded [here](https://drive.google.com/file/d/1NYvlJYVonLs3twtYPDBV8l0x9ooxIFCY/view?usp=sharing)
 'CED_results/resultsImgs_CED': edge maps before NMS with single-scale CED
 
 'CED_results/resultsImgs_CED_multi': edge maps before NMS with CED
@@ -55,7 +55,7 @@ Please refer to the original HED(https://github.com/s9xie/hed).
  
 For NMS, we used Piotr's Structured Forest matlab toolbox(https://github.com/pdollar/edges). 
 
-Note: Initialize with the pretrained HED(https://drive.google.com/file/d/1R_kUd028OMWnPSRNBJTEkUQDrYOoSP7P/view?usp=sharing)
+Note: Initialize with the [pretrained HED](https://drive.google.com/file/d/1R_kUd028OMWnPSRNBJTEkUQDrYOoSP7P/view?usp=sharing)
 
 ### Acknowledgment: 
 This code is based on HED. Thanks to the contributors of HED.
