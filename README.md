@@ -26,34 +26,36 @@ If you are using the code/model provided here in a publication, please cite our 
 
 
 
-### Evaluation results
-'examples/CED/resultsImgs_CED': edge maps before NMS with single-scale CED
+### Evaluation results can be downloaded at(https://drive.google.com/file/d/1NYvlJYVonLs3twtYPDBV8l0x9ooxIFCY/view?usp=sharing)
+'CED_results/resultsImgs_CED': edge maps before NMS with single-scale CED
 
-'examples/CED/resultsImgs_CED_multi': edge maps before NMS with CED
+'CED_results/resultsImgs_CED_multi': edge maps before NMS with CED
 
-'examples/CED/edge_resultsImgs_CED_multi': edge maps after NMS with CED
+'CED_results/edge_resultsImgs_CED_multi': edge maps after NMS with CED
 
-'examples/CED/edge_resultsImgs_CED_multi-eval': evaluation results with CED at standard maximal permissible distance d.
+'CED_results/edge_resultsImgs_CED_multi-eval': evaluation results with CED at standard maximal permissible distance d.
 
-'examples/CED/edge_resultsImgs_CED_multi-375-eval': evaluation results with CED at d/2.
+'CED_results/edge_resultsImgs_CED_multi-375-eval': evaluation results with CED at d/2.
 
-'examples/CED/edge_resultsImgs_CED_multi-1875-eval': evaluation results with CED at d/4.
+'CED_results/edge_resultsImgs_CED_multi-1875-eval': evaluation results with CED at d/4.
 
-'examples/CED/edge_resultsImgs_CED_multi_VOC_aug': edge maps after NMS with CED_VOC_aug
+'CED_results/edge_resultsImgs_CED_multi_VOC_aug': edge maps after NMS with CED_VOC_aug
 
-'examples/CED/edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
+'CED_results/edge_resultsImgs_CED_multi_VOC_aug-eval': evaluation results with CED_VOC_aug
 
-'examples/CED/resultsImgs_Res50_CED_multi_VOC_aug': edge maps before NMS with Res50_CED_multi_VOC_aug
+'CED_results/resultsImgs_Res50_CED_multi_VOC_aug': edge maps before NMS with Res50_CED_multi_VOC_aug
 
-'examples/CED/edge_resultsImgs_Res50_CED_multi_VOC_aug': edge maps after NMS with Res50_CED_multi_VOC_aug
+'CED_results/edge_resultsImgs_Res50_CED_multi_VOC_aug': edge maps after NMS with Res50_CED_multi_VOC_aug
 
-'examples/CED/edge_resultsImgs_Res50_CED_multi_VOC_aug-eval': evaluation results with Res50_CED_multi_VOC_aug
+'CED_results/edge_resultsImgs_Res50_CED_multi_VOC_aug-eval': evaluation results with Res50_CED_multi_VOC_aug
 
 ### Training and testing
+
 Please refer to the original HED(https://github.com/s9xie/hed).
  
 For NMS, we used Piotr's Structured Forest matlab toolbox(https://github.com/pdollar/edges). 
 
+Note: Initialize with the pretrained HED(https://drive.google.com/file/d/1R_kUd028OMWnPSRNBJTEkUQDrYOoSP7P/view?usp=sharing)
 
 ### Acknowledgment: 
 This code is based on HED. Thanks to the contributors of HED.
